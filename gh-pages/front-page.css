@@ -1,0 +1,9 @@
+html {font-size: 1.375em;  /* 22px */}
+
+body {
+        font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));    /* flexible baseline */
+    /* line-height: 1.2em; */
+}
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+}
